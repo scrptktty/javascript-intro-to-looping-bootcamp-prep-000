@@ -3,7 +3,7 @@ function forLoop(array) {
     var mySentence = `I am ${i} stange loop${i === 1 ? "" : "s"}.`
     array.push(mySentence)
   }
-  
+
   return array
 }
 
