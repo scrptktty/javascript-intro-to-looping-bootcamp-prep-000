@@ -1,9 +1,8 @@
 function forLoop(array) {
   for (let i = 0; i < 26; i++) {
-    var mySentence = `I am ${i} stange loop${i === 1 ? "" : "s"}.`
+    var strangeness = `I am ${i} stange loop${i === 1 ? "" : "s"}.`
     array.push(mySentence)
   }
-
   return array
 }
 
