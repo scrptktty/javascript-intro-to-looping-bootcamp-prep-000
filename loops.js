@@ -1,5 +1,5 @@
 function forLoop(array) {
-  for (let i = 0; i < 26; i++) {
+  for (let i = 0; i < 25; i++) {
     var strangeness = `I am ${i} stange loop${i === 1 ? "" : "s"}.`
     array.push(strangeness)
   }
